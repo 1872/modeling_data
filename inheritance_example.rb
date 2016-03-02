@@ -20,6 +20,12 @@ class Vehicle
 end
 
 class Car < Vehicle
+  def initialize
+    super
+    @speed = 10
+    @gas = 0
+  end
+
   def honk_horn
     puts "Beeeeeeep!"
   end
@@ -38,5 +44,4 @@ p impala.speed
 impala.brake
 p impala.speed
 impala.honk_horn
-impala.ring_bell
 
