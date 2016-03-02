@@ -37,6 +37,7 @@ end
 
 employee1 = Employee.new(last_name: "Carter", first_name: "Majora", salary: 80000, active: true)
 employee2 = Employee.new(first_name: "Danilo", last_name: "Campos", salary: 70000, active: true)
+employee3 = Employee.new(first_name: "Peter", last_name: "Jang", salary: 70000)
 employee1.print_info
 employee2.print_info
 employee2.give_annual_raise
